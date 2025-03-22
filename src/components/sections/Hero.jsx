@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../layers/Container'
 import Image from '../layers/Image'
+import { FaAngleRight } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -15,6 +16,10 @@ const Hero = () => {
                 <p className='w-[471px] font-Way font-normal text-[#838383] text-base leading-[26px] tracking-[0.2px] mb-[50px]'>
                     My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.
                 </p>
+                <button className='text-[#FFF] items-center font-Way text-base font-bold uppercase rounded-[30px] bg-[#8671FC] px-[50px] py-[21px] hover:bg-inherit hover:text-[#8671FC] text-center'>Hire Me</button>
+                <button className='text-[#FFF] items-center font-Way text-base font-bold uppercase rounded-[30px] bg-[#8671FC] px-[50px] py-[21px] hover:bg-inherit hover:text-[#8671FC]'>
+                    DOWNLOAD RESUME <FaAngleRight />
+                </button>
             </div>
             <div className="right">
                 <Image src="/Pink_Oval.png"/>
